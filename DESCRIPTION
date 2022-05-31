@@ -1,0 +1,15 @@
+Package: bbmR2
+Type: Package
+Title: Helper functions for the Baltimore City Budget office (BBMR)
+Version: 2022.05.31
+Authors@R: person("Lillian", "Nguyen", email = "lillian.nguyen@baltimorecity.gov", role = c("aut", "cre"))
+Maintainer: Sara Brumfield <sara.brumfield2@baltimorecity.gov>
+Description: Functions that facilitate common data-related tasks for the Baltimore City Bureau of the Budget and Management Research
+Depends: R (>= 4.0.0)
+Imports: DBI, assertthat, dbplyr, dplyr, httr, jsonlite,
+    lubridate, magrittr, odbc, openxlsx, stringr, tidyverse
+Encoding: UTF-8
+License: `use_mit_license()`
+LazyData: TRUE
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
