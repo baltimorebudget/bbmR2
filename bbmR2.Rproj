@@ -18,6 +18,8 @@ StripTrailingWhitespace: Yes
 BuildType: Package
 PackageUseDevtools: Yes
 PackageInstallArgs: --no-multiarch --with-keep.source
+PackageBuildBinaryArgs: -l C:/Users/sara.brumfield2/OneDrive - City Of Baltimore/Documents/r_library
+PackageCheckArgs: -l C:/Users/sara.brumfield2/OneDrive - City Of Baltimore/Documents/r_library
 PackageRoxygenize: rd,collate,namespace,vignette
 
 SpellingDictionary: en_US

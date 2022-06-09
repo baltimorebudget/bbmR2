@@ -7,9 +7,9 @@ Maintainer: Sara Brumfield <sara.brumfield2@baltimorecity.gov>
 Description: Functions that facilitate common data-related tasks for the Baltimore City Bureau of the Budget and Management Research
 Depends: R (>= 4.0.0)
 Imports: DBI, assertthat, dbplyr, dplyr, httr, jsonlite,
-    lubridate, magrittr, odbc, openxlsx, stringr, tidyverse
+    lubridate, magrittr, odbc, openxlsx, stringr, tidyverse, methods
 Encoding: UTF-8
-License: `use_mit_license()`
+License: use_mit_license()
 LazyData: TRUE
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
